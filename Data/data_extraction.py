@@ -1,7 +1,7 @@
 import pandas as pd 
 from pathlib import Path
 
-DATA_DIR=Path(r"C:\Users\sonia\Downloads\llm-classification-finetuning (1)")
+DATA_DIR=Path(r"C:\...\llm-classification-finetuning (1)")
 
 train = pd.read_csv(DATA_DIR/ "train.csv")
 test = pd.read_csv(DATA_DIR / "test.csv")
